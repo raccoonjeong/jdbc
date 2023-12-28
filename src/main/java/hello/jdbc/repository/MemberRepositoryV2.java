@@ -9,7 +9,7 @@ import java.sql.*;
 import java.util.NoSuchElementException;
 
 /**
- * JDBC - DataSource 사용, JdbcUtils 사용
+ * JDBC - ConnectionParam
  */
 @Slf4j
 public class MemberRepositoryV2 {
