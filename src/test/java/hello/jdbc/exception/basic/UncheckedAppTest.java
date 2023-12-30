@@ -35,7 +35,7 @@ public class UncheckedAppTest {
 
     }
     static class NetworkClient {
-        public void call() {
+        public void call() { //
             throw new RuntimeConnectException("연결 실패");
         }
     }
